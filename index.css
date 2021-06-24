@@ -1,0 +1,69 @@
+
+a:link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 40;
+    color: #FFFFFF
+}
+
+.body{
+    background-image: url(bg.jpg);
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+.color{
+    background-color:  #C9D2E1;
+}
+.grid1{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+}
+
+.grid2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+}
+
+.origami{
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 20px;
+    background-color: violet;
+    width: 310px;
+    font-family: cursive;
+    padding: 20px;
+    margin: 15px;
+}
+.origami p{
+    top:30%;
+    left: 70%;
+    opacity: 0;
+}
+.origami:hover p{
+    opacity:1 ;
+
+}
